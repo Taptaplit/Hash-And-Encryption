@@ -3,7 +3,7 @@ import smtplib
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 
-github_url = str("Making...")
+github_url = str("https://github.com/Taptaplit/email-bot")
 
 name = str(input("\nWhat is your name: "))
 from_email = str(input("\nYour Email: "))
