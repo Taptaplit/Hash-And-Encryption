@@ -14,5 +14,5 @@ msg = str(input(f"\nMessage you want to send to {send_to}: "))
 server.login('EMAIL', 'EMAIL-PASS')
 server.sendmail(f'{from_email}',
                 f'{send_to}',
-                f'Subject: {subject}\n\nFrom: {name} | {name}`s Email: {from_email}\nMessage: {msg}\n\n Sent with: {github_url}\n **Note this is a bot, and they will not be reciving any replys from this conversation, so email them back on their own email!'
+                f'Subject: {subject}\n\nFrom: {name} | {name}`s Email: {from_email}\nMessage: {msg}\n\n Sent with: {github_url}\n **Note {name} sent this from a bot, and they will not be reciving any replys from this conversation, so email them back on their own email!'
                 )
